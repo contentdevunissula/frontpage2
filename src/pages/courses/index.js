@@ -2,11 +2,11 @@ import React, { useEffect, useState, useRef } from "react";
 import Head from "next/head";
 import Link from "next/link";
 
-import courses from "../constants/api/courses";
+import courses from "../../constants/api/courses";
 
-import Header from "../../../src/pages/parts/Header";
-import Footer from "../../../src/pages/parts/Footer";
-import ListCourses from "../../../src/pages/parts/ListCourses";
+import Header from "../../parts/Header";
+import Footer from "../../parts/Footer";
+import ListCourses from "../../parts/ListCourses";
 
 function Courses({ data }) {
   const [Search, setSearch] = useState(() => "");

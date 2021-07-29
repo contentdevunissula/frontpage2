@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 import propTypes from "prop-types";
 
-import IconStar from "../../../../../public/images/icon-star.svg";
+import IconStar from "../../../../public/images/icon-star.svg";
 
 export default function Star({ className, value, height, width }) {
   const star = [];

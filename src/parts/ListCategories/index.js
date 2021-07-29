@@ -2,12 +2,12 @@ import React from "react";
 
 import RenderItem from "./RenderItem";
 
-import BusinessDevelopment from "../../../../public/images/icon-business-development.svg";
-import ContentWriter from "../../../../public/images/icon-content-writer.svg";
-import ProductAdvertisement from "../../../../public/images/icon-product-advertisement.svg";
-import CustomerRelationship from "../../../../public/images/icon-customer-relationship.svg";
-import GameDevelopment from "../../../../public/images/icon-game-development.svg";
-import TravelGuidance from "../../../../public/images/icon-travel-guidance.svg";
+import BusinessDevelopment from "../../../public/images/icon-business-development.svg";
+import ContentWriter from "../../../public/images/icon-content-writer.svg";
+import ProductAdvertisement from "../../../public/images/icon-product-advertisement.svg";
+import CustomerRelationship from "../../../public/images/icon-customer-relationship.svg";
+import GameDevelopment from "../../../public/images/icon-game-development.svg";
+import TravelGuidance from "../../../public/images/icon-travel-guidance.svg";
 
 export default function index() {
   const data = [

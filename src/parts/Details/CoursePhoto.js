@@ -1,6 +1,6 @@
 import React from "react";
 
-import Preview from "../../../../public/images/icon-preview.svg";
+import Preview from "../../../public/images/icon-preview.svg";
 
 import Modal from "../components/Modal";
 

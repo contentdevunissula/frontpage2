@@ -2,15 +2,15 @@ import Head from 'next/head'
 import axios from 'configs/axios'
 
 
-import Header from './parts/Header'
-import Hero from './parts/Hero'
-import Clients from './parts/Clients'
-import ListCourses from './parts/ListCourses'
-import ListCategories from './parts/ListCategories'
-import Footer from './parts/Footer'
+import Header from '../parts/Header'
+import Hero from '../parts/Hero'
+import Clients from '../parts/Clients'
+import ListCourses from '../parts/ListCourses'
+import ListCategories from '../parts/ListCategories'
+import Footer from '../parts/Footer'
 import Circle from '../../public/images/circle-accent-1.svg'
 
-import courses from './constants/api/courses';
+import courses from '../constants/api/courses';
 
 function Home(data) {
   return (

@@ -6,23 +6,23 @@ import Youtube from "react-youtube";
 
 import { CSSTransition } from "react-transition-group";
 
-import Header from "../parts/Header";
+import Header from "../../parts/Header";
 
 //public image files
 import Nametag from "../../../public/images/icon-nametag.svg";
 import Playback from "../../../public/images/icon-playback.svg";
 import Certificate from "../../../public/images/icon-certificate.svg";
 
-import courses from "../constants/api/courses";
+import courses from "../../constants/api/courses";
 
-import Feature from "../parts/Details/Feature";
-import CoursePhoto from "../parts/Details/CoursePhoto";
-import RenderPreview from "../parts/Details/RenderPreview";
-import HappyStudent from "../parts/Details/HappyStudent";
+import Feature from "../../parts/Details/Feature";
+import CoursePhoto from "../../parts/Details/CoursePhoto";
+import RenderPreview from "../../parts/Details/RenderPreview";
+import HappyStudent from "../../parts/Details/HappyStudent";
 
-import Footer from "../parts/Footer";
+import Footer from "../../parts/Footer";
 
-import formatThousand from "../helpers/formatThousand";
+import formatThousand from "../../helpers/formatThousand";
 
 function DetailsCourse({ data }) {
 

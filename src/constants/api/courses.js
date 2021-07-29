@@ -1,4 +1,4 @@
-import axios from "../../../../src/configs/axios";
+import axios from "../../../src/configs/axios";
 export default {
   all: (options = { params: { status: "published" } }) =>
     axios.get(`/courses`, options).then((res) => res.data),

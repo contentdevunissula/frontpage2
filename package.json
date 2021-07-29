@@ -1,5 +1,6 @@
 {
   "name": "frontpage",
+  "homepage": "http://103.28.220.8:3001",
   "version": "0.1.0",
   "private": true,
   "scripts": {
