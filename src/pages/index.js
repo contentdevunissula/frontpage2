@@ -16,29 +16,27 @@ function Home(data) {
   return (
     <>
       <Head>
-        <title>BWA MICRO</title>
+        <title>MBKM UNISSULA | Universitas Islam Sultan Agung</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 
       <main>
         <section className="header-clipping pt-10 min-h-screen md:min-h-0">
-          <div className="sunshine max-w-full"></div>
-          <Circle className="absolute left-0 bottom-0"></Circle>
           <div className="container mx-auto px-4">
             <Header onLight></Header>
             <Hero></Hero>
           </div>
         </section>
-          <section className="container px-4 mx-auto pt-24">
+          {/* <section className="container px-4 mx-auto pt-24">
             <Clients></Clients>
-          </section>
+          </section> */}
           <section className="container px-4 mx-auto pt-24">
             <ListCourses data={data}></ListCourses>
           </section>
           <section className="container px-4 mx-auto md:pt-24">
           <ListCategories></ListCategories>
         </section>
-        <section className="mt-24 bg-indigo-1000 py-12">
+        <section className="mt-24 bg-green-900 py-12">
           <Footer></Footer>
         </section>
       </main>

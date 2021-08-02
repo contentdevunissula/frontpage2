@@ -40,7 +40,7 @@ export default function Header({ onLight }) {
       ].join(" ")}
     >
       <div style={{ height: 54, zIndex: 50 }}>
-        <Logo className="on-dark"></Logo>
+        <img src="/images/logoSVG.svg" alt="" srcset="" width="50"/>
       </div>
       <div className="flex md:hidden">
         <button
@@ -59,7 +59,7 @@ export default function Header({ onLight }) {
             <a
               className={[
                 linkColor,
-                "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium",
+                "text-white hover:text-green-700 text-lg px-6 py-3 font-medium",
               ].join(" ")}
             >
               Home
@@ -71,7 +71,7 @@ export default function Header({ onLight }) {
             <a
               className={[
                 linkColor,
-                "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium",
+                "text-white hover:text-green-700 text-lg px-6 py-3 font-medium",
               ].join(" ")}
             >
               Pricing
@@ -83,7 +83,7 @@ export default function Header({ onLight }) {
             <a
               className={[
                 linkColor,
-                "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium",
+                "text-white hover:text-green-700 text-lg px-6 py-3 font-medium",
               ].join(" ")}
             >
               Features
@@ -95,7 +95,7 @@ export default function Header({ onLight }) {
             <a
               className={[
                 linkColor,
-                "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium",
+                "text-white hover:text-green-700 text-lg px-6 py-3 font-medium",
               ].join(" ")}
             >
               Story
@@ -108,7 +108,7 @@ export default function Header({ onLight }) {
               target="_blank"
               rel="noopener noereferrer"
               href={linkCTA}
-              className="hover:bg-indigo-800 transition-all duration-200 text-white hover:text-teal-500 text-lg px-6 py-3 font-medium ml-6 inline-flex items-center"
+              className="hover:bg-indigo-800 transition-all duration-200 text-white hover:text-green-700 text-lg px-6 py-3 font-medium ml-6 inline-flex items-center"
             >
               <span className="rounded-full overflow-hidden mr-3 border-2 border-orange-500">
                 {User?.thumbnail ? (
@@ -128,7 +128,7 @@ export default function Header({ onLight }) {
               target="_blank"
               rel="noopener noereferrer"
               href={linkCTA}
-              className="bg-indigo-700 hover:bg-indigo-800 transition-all duration-200 text-white hover:text-teal-500 text-lg px-6 py-3 font-medium ml-6"
+              className="bg-green-700 hover:bg-green-800 transition-all duration-200 text-white hover:text-green-300 text-lg px-6 py-3 font-medium ml-6"
             >
               {textCTA}
             </a>

@@ -49,7 +49,7 @@ export default function index() {
         <div className="w-auto">
           <h2 className="text-lg text-gray-600">Category</h2>
           <h3 className="text-xl text-gray-900">
-            Explore & <span className="text-teal-400">Learn</span>
+            Explore & <span className="text-green-400">Learn</span>
           </h3>
         </div>
       </div>

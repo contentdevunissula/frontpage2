@@ -13,28 +13,28 @@ export default function Footer() {
           <ul className="mt-4">
             <li className="mt-2">
               <Link href="">
-                <a className="text-indigo-500 hover:text-teal-500 hover:underline">
+                <a className="text-white hover:text-teal-500 hover:underline">
                   API Developer
                 </a>
               </Link>
             </li>
             <li className="mt-2">
               <Link href="">
-                <a className="text-indigo-500 hover:text-teal-500 hover:underline">
+                <a className="text-white hover:text-teal-500 hover:underline">
                   Career
                 </a>
               </Link>
             </li>
             <li className="mt-2">
               <Link href="">
-                <a className="text-indigo-500 hover:text-teal-500 hover:underline">
+                <a className="text-white hover:text-teal-500 hover:underline">
                   Our Story
                 </a>
               </Link>
             </li>
             <li className="mt-2">
               <Link href="">
-                <a className="text-indigo-500 hover:text-teal-500 hover:underline">
+                <a className="text-white hover:text-teal-500 hover:underline">
                   New Soon
                 </a>
               </Link>
@@ -46,28 +46,28 @@ export default function Footer() {
           <ul className="mt-4">
             <li className="mt-2">
               <Link href="">
-                <a className="text-indigo-500 hover:text-teal-500 hover:underline">
+                <a className="text-white hover:text-teal-500 hover:underline">
                   Get Scholarship
                 </a>
               </Link>
             </li>
             <li className="mt-2">
               <Link href="">
-                <a className="text-indigo-500 hover:text-teal-500 hover:underline">
+                <a className="text-white hover:text-teal-500 hover:underline">
                   Our Pathskills
                 </a>
               </Link>
             </li>
             <li className="mt-2">
               <Link href="">
-                <a className="text-indigo-500 hover:text-teal-500 hover:underline">
+                <a className="text-white hover:text-teal-500 hover:underline">
                   All Features
                 </a>
               </Link>
             </li>
             <li className="mt-2">
               <Link href="">
-                <a className="text-indigo-500 hover:text-teal-500 hover:underline">
+                <a className="text-white hover:text-teal-500 hover:underline">
                   Refund Policy
                 </a>
               </Link>
@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
         <div className="w-full md:w-1/6 mb-8 md:mb-0">
           <h6 className="text-white">Touch Us</h6>
-          <p className="mt-4 text-indigo-500 leading-loose">
+          <p className="mt-4 text-white leading-loose">
             Micro Centre <br />
             Alleysi Block X No. 12 <br />
             Jakarta Selatan, Indonesia <br />
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
         <div className="w-full md:w-2/6 mb-8 md:mb-0">
           <h6 className="text-white">Promotions</h6>
-          <p className="mt-4 text-indigo-500">
+          <p className="mt-4 text-white">
             Submit your email for new updates
           </p>
           <form onSubmit={submit}>
@@ -100,9 +100,9 @@ export default function Footer() {
           </form>
         </div>
       </div>
-      <div className="border-t pt-8 mt-8 border-gray-800 text-center">
-        <p className="text-indigo-500">
-          2020 Copyright Micro by BuildWith Angga. All Rights Reserved
+      <div className="border-t pt-8 mt-8 border-green-800 text-center">
+        <p className="text-white">
+          2021 Copyright Universitas Islam Sultan. All Rights Reserved
         </p>
       </div>
     </footer>

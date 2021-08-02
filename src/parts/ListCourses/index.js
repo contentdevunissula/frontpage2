@@ -11,7 +11,7 @@ export default function ListCourses({ data }) {
         <div className="w-auto">
           <h2 className="text-lg text-gray-600">New Classes</h2>
           <h3 className="text-xl text-gray-900">
-            Summer <span className="text-teal-400">Productive</span>
+            Summer <span className="text-green-400">Productive</span>
           </h3>
         </div>
         <div className="w-auto">
