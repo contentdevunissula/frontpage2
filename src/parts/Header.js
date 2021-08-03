@@ -17,7 +17,7 @@ export default function Header({ onLight }) {
     const userCookies =
       decodeURIComponent(window.document.cookie)
         ?.split(";")
-        ?.find?.((item) => item.indexOf("BWAMICRO:user") > -1)
+        ?.find?.((item) => item.indexOf("TOKEN:user") > -1)
         ?.split("=")[1] ?? null;
     setUser(userCookies ? JSON.parse(userCookies) : null);
   }, []);
