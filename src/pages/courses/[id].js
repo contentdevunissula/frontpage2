@@ -76,7 +76,7 @@ function DetailsCourse({ data }) {
         )}
 
         <div className="absolute inset-0 z-0 w-full h-full bg-black opacity-75"></div>
-        <div className="meta-title absolute inset-0 object-fill z-0 w-full flex justify-center items-center">
+        <div className="meta-title absolute inset-0 object-fill z-0 w-full flex justify-center items-center bg-green-900">
           <div className="text-center">
             <h3 className="text-lg text-white">Kelas Online: </h3>
             <h4 className="text-3xl md:text-6xl text-teal-500 font-semibold">
@@ -227,7 +227,7 @@ function DetailsCourse({ data }) {
           </div>
         </div>
       </section>
-      <section className="mt-24 bg-indigo-1000 py-12" ref={footer}>
+      <section className="mt-24 bg-green-900 py-12" ref={footer}>
         <Footer></Footer>
       </section>
     </>
@@ -235,7 +235,7 @@ function DetailsCourse({ data }) {
 }
 
 DetailsCourse.getInitialProps = async (props) => {
-  console.log(props)
+  // console.log(props)
   const { id } = props.query;
   try {
     const data = await courses.details(id);

@@ -69,18 +69,17 @@ function Courses({ data }) {
       </Head>
 
       <section className="pt-10 z-30 relative" style={{ height: 360 }}>
-        <div className="absolute inset-0 z-0 w-full h-full bg-black opacity-75"></div>
+        <div className="absolute inset-0 z-0 w-full h-full bg-green-500 opacity-75"></div>
         <div
           className="meta-title absolute bottom-0 object-fill z-0 w-full flex justify-center items-center"
           style={{ marginBottom: "-25px" }}
         >
           <div className="px-4">
-            <h3 className="text-6xl text-center text-teal-500 font-semibold">
-              Library
+            <h3 className="text-6xl text-center text-teal-900 font-semibold">
+              Daftar Kelas
             </h3>
             <h4 className="text-lg text-center text-white">
-              Jangan mau kalah update dengan yang lainnya. <br /> Yuk ikuti
-              perkembangan teknologi.
+              Kelas Super Menarik untuk semua <br /> Kalangan.
             </h4>
             <div className="flex flex-col relative" ref={selectWrapper}>
               <input
@@ -158,7 +157,7 @@ function Courses({ data }) {
       <section className="container px-4 mx-auto pt-24">
         <ListCourses data={data}></ListCourses>
       </section>
-      <section className="mt-24 bg-indigo-1000 py-12">
+      <section className="mt-24 bg-green-900 py-12">
         <Footer></Footer>
       </section>
     </>
