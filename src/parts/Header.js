@@ -66,7 +66,7 @@ export default function Header({ onLight }) {
             </a>
           </Link>
         </li>
-        <li className="my-4 md:my-0">
+        {/* <li className="my-4 md:my-0">
           <Link href="/">
             <a
               className={[
@@ -101,7 +101,7 @@ export default function Header({ onLight }) {
               Story
             </a>
           </Link>
-        </li>
+        </li> */}
         <li className="mt-8 md:mt-0">
           {User ? (
             <a
