@@ -12,6 +12,7 @@ import Circle from '../../public/images/circle-accent-1.svg'
 
 import courses from '../constants/api/courses';
 
+    
 function Home(data) {
   return (
     <>
@@ -40,6 +41,7 @@ function Home(data) {
           <Footer></Footer>
         </section>
       </main>
+      
     </>
   )
 }

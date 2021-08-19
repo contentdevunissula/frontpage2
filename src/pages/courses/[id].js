@@ -74,7 +74,6 @@ function DetailsCourse({ data }) {
             ></Youtube>
           </div>
         )}
-
         <div className="absolute inset-0 z-0 w-full h-full bg-black opacity-75"></div>
         <div className="meta-title absolute inset-0 object-fill z-0 w-full flex justify-center items-center bg-green-900">
           <div className="text-center">
@@ -136,7 +135,12 @@ function DetailsCourse({ data }) {
                     </h3>
                   </div>
                   <h5 className="text-base md:text-2xl text-teal-500 whitespace-no-wrap mr-4">
-                    {data?.type === "free" ? (
+                    
+                    { data.access === "owned" ? ( 
+                      "di Miliki"
+                      ) 
+                      :
+                    data?.type === "free" ? (
                       "Free"
                     ) : (
                       <span>Rp {formatThousand(data?.price ?? 0)}</span>
@@ -148,7 +152,8 @@ function DetailsCourse({ data }) {
                     rel="noopener noreferrer"
                     className="bg-orange-500 hover:bg-orange-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3 whitespace-no-wrap"
                   >
-                    {data?.type === "free" ? "Enroll Now" : "Buy Now"}
+                    
+                    { data?.access === "owned" ? "Mulai Belajar" : data?.type === "free" ? "Enroll Now" : "Buy Now"}
                   </a>
                 </div>
               </div>
@@ -235,11 +240,10 @@ function DetailsCourse({ data }) {
 }
 
 DetailsCourse.getInitialProps = async (props) => {
-  // console.log(props)
   const { id } = props.query;
   try {
     const data = await courses.details(id);
-    return { data };
+    return { data }
   } catch (error) {}
 };
 
