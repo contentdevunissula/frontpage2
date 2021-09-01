@@ -30,7 +30,11 @@ export default function Header({ onLight }) {
     router.pathname.indexOf("/login") > -1
       ? `${process.env.NEXT_PUBLIC_MEMBERPAGE_URL}/register`
       : `${process.env.NEXT_PUBLIC_MEMBERPAGE_URL}/login`;
-  const textCTA = router.pathname.indexOf("/login") > -1 ? "Daftar" : "Masuk";
+    const textCTA = router.pathname.indexOf("/login") > -1 ? "Daftar" : "Masuk";
+
+
+    const linkCTA2 = `${process.env.NEXT_PUBLIC_MEMBERPAGE_URL}/register`
+    const textCTA2 = "Daftar";
 
   return (
     <header
@@ -124,14 +128,24 @@ export default function Header({ onLight }) {
               Hi, {User.name}
             </a>
           ) : (
+            <>
             <a
               target="_blank"
               rel="noopener noereferrer"
               href={linkCTA}
-              className="bg-green-700 hover:bg-green-800 transition-all duration-200 text-white hover:text-green-300 text-lg px-6 py-3 font-medium ml-6"
+              className=" hover:bg-green-800 transition-all duration-200 text-white hover:text-green-300 text-lg px-6 py-3 font-medium ml-6"
             >
               {textCTA}
             </a>
+                          <a
+              target="_blank"
+              rel="noopener noereferrer"
+              href={linkCTA2}
+              className="bg-green-700 hover:bg-green-800 transition-all duration-200 text-white hover:text-green-300 text-lg px-6 py-3 font-medium ml-6"
+            >
+              {textCTA2}
+            </a>
+            </>
           )}
         </li>
       </ul>
